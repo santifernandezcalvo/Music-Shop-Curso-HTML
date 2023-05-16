@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../imagenes/logo.jpeg" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href=".././css/style.css">
+        <title>Cocoa Bakery</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo"><img src="https://thumbs.dreamstime.com/b/guitar-icon-music-shop-logo-music-store-label-acoustic-musical-instrument-sign-vector-guitar-icon-music-shop-logo-music-store-115579102.jpg" alt="logo"></div>
+            <form action="">
+                <input type="text" placeholder="Buscar">
+            </form>
+            <nav>
+                <div class="nav-menu">
+                    <div class="icons"><img src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_add_shopping_cart_48px-256.png" alt="carrito"></div>
+                    <ul class="header-nav">
+                        <li><a href=".././index.html" class="no-decoration">Home</a></li>
+                        <li><a href="./products.html" class="no-decoration">Products</a></li>
+                        <li><a href="./about-us.html" class="no-decoration">About Us</a></li>
+                        <li><a href="./contact.html" class="no-decoration">Contact</a></li>
+                        <li><a href="./profile.html" class="no-decoration">Profile</a></li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h2 class="style-title title-center">Products</h2>
+            <section id="productBoxes">
+                <img src="data:image/jpeg;base64,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" alt="product picture">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fglobalmusic.ph%2Fproduct%2Fpulse-st-0036-electric-guitar-sunburst%2F&psig=AOvVaw2DlxNdhJw47lGUBWO_TTic&ust=1682749827506000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCrsuH5y_4CFQAAAAAdAAAAABAK" alt="product picture">
+                <img src="https://www.tomleemusic.ca/media/catalog/product/cache/7b59eeedc8a9391b10c489498e31e772/u/l/ultraluxe2.jpg" alt="product picture">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQasOSFyNPD8lWT0MX1fkNGgfeQz2GG4_iZ7Q&usqp=CAU" alt="product picture">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.musicindustryhowto.com%2Felectric-guitars%2F&psig=AOvVaw2DlxNdhJw47lGUBWO_TTic&ust=1682749827506000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCrsuH5y_4CFQAAAAAdAAAAABA9" alt="product picture">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mannys.com.au%2Fgibson-es-335-sixties-cherry-inc-hard-shell-case&psig=AOvVaw2DlxNdhJw47lGUBWO_TTic&ust=1682749827506000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCrsuH5y_4CFQAAAAAdAAAAABBb" alt="product picture">
+                <img src="https://robbreport.com/wp-content/uploads/2021/08/lespaul01.jpg?w=1000" alt="product picture">
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <div>
+                    <h2 class="style-title">Navigation</h2>
+                    <ul class="footer-nav">
+                        <li><a href=".././index.html" class="no-decoration">Home</a></li>
+                        <li><a href="./products.html" class="no-decoration">Products</a></li>
+                        <li><a href="./about-us.html" class="no-decoration">About Us</a></li>
+                        <li><a href="./contact.html" class="no-decoration">Contact</a></li>
+                        <li><a href="./profile.html" class="no-decoration">Profile</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="style-title">Social Media</h2>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/AvellanedaMusicShop/" target="_blank"><img src="https://www.iconfinder.com/icons/6929237/instagram_icon" alt="instagram icon"></a>
+                        <a href="https://www.tiktok.com/@avellanedamusicshop" target="_blank"><img src="https://www.iconfinder.com/icons/7693325/tiktok_social%20media_logo_apps_icon" alt="tiktok icon"></a>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="style-title">Payment Methods</h2>
+                    <div class="icons">
+                        <img src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_paypal-512.png" alt="paypal icon">
+                        <img src="https://cdn3.iconfinder.com/data/icons/payment-method-1/64/_Mastercard-512.png" alt="mastercard icon">
+                        <img src="https://www.iconfinder.com/icons/4375165/card_credit_logo_visa_icon" alt="visa icon">                     
+                        <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/45_Bitcoin_logo_logos-256.png" alt="crypto icon">
+                        <img src="https://www.iconfinder.com/icons/8546721/cc_amex_icon" alt="amex icon">
+                        <img src="https://www.iconfinder.com/icons/6669127/business_card_computer_credit_money_person_trasnfer_icon" alt="direct transfer">
+                    </div>
+                </div>
+                <div>
+                    <h2 class="style-title">Contact us</h2>
+                    <ul class="icons">
+                        <li>
+                            <img src="https://cdn4.iconfinder.com/data/icons/communication-163/32/phone-256.png" alt="phone icon">
+                            <span>123456782</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/mail-letter-offer-256.png" alt="mail icon">
+                            <span>martinpalermo@gmail.com</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_location_on_48px-256.png" alt="location icon">
+                            <span>Avenida Juan Roman Riquelme 1070, Buenos Aires</span>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </footer>

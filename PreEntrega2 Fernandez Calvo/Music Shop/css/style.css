@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: #F7F5FB;
+}
+header{
+    background-color: #A8763E;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5000;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+form input{
+    width: 500px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+.nav-menu ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-items: right;
+}
+.nav-menu li{
+    padding: 0px 12px;
+}
+.logo img{
+    display: flex;
+    width: 150px;
+}
+.img-perfil{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+
+body main{
+    height: 600px;
+}
+main h2{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+main p{
+    width: 70%;
+    position: relative;
+    left: 10%;
+    top: 10px;
+}
+#columnaSociales{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.img-center{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+.style-contacto h2{
+    margin: 20px 0;
+}
+.style-form h3{
+    margin: 10px 0;
+}
+.button{
+    display: inline-block;
+    width: 70px;
+}
+.form-crear{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    position: relative;
+    bottom: 60%;
+    left: 50%;
+}
+.button-iniciar input.button{
+    width: 100px;
+}
+.style-banner img{
+    position: relative;
+    top: 50px;
+    left: 12%;
+    height: 400px;
+    width: 1300px;
+}
+#productBoxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 700px;
+    position: relative;
+    left: 35%;
+    justify-content: center;
+    align-content: flex-start;
+}
+#productBoxes img{
+    width: 150px;
+    height: 150px;
+    margin: 12px;
+}
+.title-center{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    bottom: 15px;
+    margin: 25px 0;
+}
+.banner-index{
+    display: flex;
+}
+.banner-index img{
+    display: flex;
+    height: 400px;
+    width: 600px;
+    position: relative;
+    top: 50px;
+    left: 20%;
+}
+.banner-index h3{
+    display: flex;
+    position: relative;
+    top: 20px;
+    right: 200px;
+}
+
+footer{
+    width: 100%;
+    background-color: #A8763E;
+    padding: 10px;
+}
+footer nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-nav li{
+    list-style-type: none;
+    margin-top: 5px;
+}
+.style-title{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.iconos{
+    display: flex;
+    flex-direction: column;
+}
+.icons img{
+    width: 40px;
+    margin: 0 5px 5px 0;
+}
+.iconos li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
